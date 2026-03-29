@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+dist/
+.wrangler/
+
+# Env
+.env
+.env.local
+.env.*.local
+.dev.vars
+
+# Logs
+*.log
+
+# OMC
+.omc/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db

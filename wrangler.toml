@@ -1,0 +1,19 @@
+name = "python-coding-lab"
+main = "worker/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[site]
+bucket = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "python-coding-lab-db"
+database_id = "2fdccb6e-1369-4561-8e85-8cf8f410fcc1"
+
+[vars]
+JWT_SECRET = "dev-secret-change-in-production"
+
+[dev]
+port = 8787
+local_protocol = "http"
